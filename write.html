@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Changing Boxes</title>
+  <!-- <link rel="stylesheet" href="whitepapers.css"> -->
+  <style>
+   .container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box p {
+  margin: 0;
+}
+
+.orangered {
+  background-color: orangered;
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+          <p>Box 1</p>
+        </div>
+        <div class="box" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+          <p>Box 2</p>
+        </div>
+        <div class="box" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+          <p>Box 3</p>
+        </div>
+        <div class="box" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+          <p>Box 4</p>
+        </div>
+      </div>
+      <script src="box.js">
+        
+      </script>
+      
+</body>
+</html>

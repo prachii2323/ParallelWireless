@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: white;
+    /* position: fixed; */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover{
+    color: orangered;
+    text-decoration: none;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    color: orangered;
+  }
+  .dropdown-content .fas-fa-greater-than{
+    float: right;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* nested dropdown */
+  .dropdown .dropdown-content .nested-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f1f1f1; 
+    padding: 2px; 
+  }
+  .dropdown-content .nested-dropdown:hover .nested-content {
+    display: block;
+  }
+  /*hero section  */
+  .hero h1 {
+    width: 100%;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(34, 34, 34);
+    font-size: 60px;
+    margin-top: 24.5%;
+}
+.down {
+    width: 100%;
+    height: 190px;
+    text-align: center;
+    background-color: lightgray;
+}
+.container {
+    text-align: center;
+  }
+/* awards */
+      .col {
+          width: fit-content;
+          margin: auto;
+          height: 200px;
+      }
+
+      .col img {
+          display: flex;
+          margin: 0 auto;
+          justify-content: center;
+          justify-items: center;
+      }
+
+      .row {
+          display: flex;
+          width: 100%;
+          gap: 15px;
+      }
+
+      .col1 {
+          width: 70%;
+          height: 200px;
+          margin-left: 70px;
+          line-height: 0.5;
+      }
+
+      /* .col1 {
+          display: flex;
+      } */
+      .col1 p{
+        font-size: 20px;
+        line-height: 1.1;
+      }
+
+
+
+
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4%;
+    color: black;
+  }
+  
+  .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+  }
+  
+  .link1 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .link1:hover {
+    color: #ff5100;
+  }
+  
+  .icons {
+    color: #ff5100;
+  }
+  .copy{
+    color: black;
+  }
+  
+  

@@ -1,0 +1,193 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: white;
+            position: fixed;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown a:hover {
+            color: orangered;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            color: orangered;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .hero h1 {
+            width: 100%;
+            height: 110px;
+            background-color: rgba(255, 255, 255, 0.4);
+            color: rgb(34, 34, 34);
+            font-size: 60px;
+            margin-top: 24.5%;
+        }
+
+        .hero-bt {
+            display: flex;
+            background-color: rgb(248, 248, 248);
+            width: 100%;
+            height: 70px;
+            align-items: center;
+        }
+
+        .hero-bt button {
+            width: 95px;
+            height: 70px;
+            border: none;
+            background-color: rgb(248, 245, 245);
+        }
+
+        .hero-bt .bt1,
+        .bt2,
+        button:hover {
+            background-color: orangered;
+            color: #fff;
+        }
+
+        .hero-bt .bt1 {
+            margin-left: 40%;
+        }
+
+        .hero-bt .bt2 {
+            margin-left: 0;
+        }
+
+        .hero-bt .bt3 {
+            margin-left: 0;
+        }
+        .features {
+            width: 90%;
+            margin-left: 5%;
+        }
+
+        .features li {
+            font-size: 20px;
+        }
+
+        .features li::marker {
+            color: orangered;
+        }
+
+        .deployment p {
+            font-size: 20px;
+        }
+
+        .dep-opt p {
+            font-size: 20px;
+        }
+
+        .down {
+            width: 100%;
+            height: 190px;
+            text-align: center;
+            background-color: lightgray;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding: 2%;
+        }
+
+        .card {
+            padding: 2%;
+        }
+
+        .card button {
+            width: 30%;
+            border-radius: 10px;
+            background-color: orangered;
+            font-weight: 500;
+        }
+
+        .card button:hover {
+            background-color: #fff;
+            color: #ff5100;
+        }
+
+        .card img {
+            transition: transform .5s ease;
+        }
+
+        .card img:hover {
+            transform: scale(1.5);
+            opacity: 0.4;
+            background: #ff5100;
+        }
+
+        .card .img-container {
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .card .p1 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+
+        .card .p2 {
+            font-size: 18px;
+        }
+
+
+        .footer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 4%;
+        }
+
+        .links {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2%;
+        }
+
+        .link1 {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        .link1:hover {
+            color: #ff5100;
+        }
+
+        .icons {
+            color: #ff5100;
+        }
+    
